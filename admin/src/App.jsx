@@ -19,8 +19,6 @@ const App = () => {
                     <Route path='/add-student'element={<AddStudent/>}/>
                    <Route path='/list-student' element={<ListStudent filter={filter}/>}/>
                 </Routes>
-
-
             </div>
 
         </div>
